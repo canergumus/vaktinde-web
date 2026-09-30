@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaktinde — Destek</title>
+<style>
+  :root {
+    --ground: #F6F2EA;
+    --card: #FFFDF9;
+    --border: #E4DDD0;
+    --ink: #10242F;
+    --muted: #5B6870;
+    --accent: #0D5471;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #04202C; --card: #0B3040; --border: #17475B;
+      --ink: #F2ECE0; --muted: #93A6B0; --accent: #57ADD1;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 16px 96px;
+    background: var(--ground); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+  .sub { color: var(--muted); margin: 0 0 36px; }
+  h2 {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin: 40px 0 10px;
+  }
+  p { margin: 0 0 14px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 18px 20px; margin: 0 0 16px;
+  }
+  .card p:last-child, .card dd:last-child { margin-bottom: 0; }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 16px; }
+  dt:first-child { margin-top: 0; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vaktinde — Destek</h1>
+  <p class="sub">Namaz vakitleri, kıble, Kur'an, zikir ve hadis</p>
+
+  <div class="card">
+    <p>Sorunuz, öneriniz ya da karşılaştığınız bir aksaklık için yazın:</p>
+    <p><strong><a href="mailto:cnrmus@gmail.com">cnrmus@gmail.com</a></strong></p>
+    <p>Yazarken iPhone modelinizi, iOS sürümünüzü ve uygulamanın sürüm
+    numarasını eklerseniz daha hızlı yardımcı olabilirim. Sürüm numarasını
+    uygulamada Ayarlar → Sürüm satırında bulabilirsiniz.</p>
+  </div>
+
+  <h2>Sık sorulanlar</h2>
+
+  <dl>
+    <dt>Vakitler Diyanet'in takviminden birkaç dakika farklı</dt>
+    <dd>Vakitler cihazınızda, Türkiye (Diyanet) yöntemiyle hesaplanır.
+    Hesaplama ile yayımlanmış takvim arasında birkaç dakikalık fark
+    olabilir. İhtiyata riayet etmek isterseniz bildirimleri vakitten birkaç
+    dakika önceye kurabilirsiniz.</dd>
+
+    <dt>Konum izni vermek istemiyorum</dt>
+    <dd>Vermeniz gerekmiyor. Ana ekranda şehir adına dokunup listeden
+    şehrinizi elle seçebilirsiniz. Bu durumda konumunuz hiçbir yere
+    gönderilmez.</dd>
+
+    <dt>Bildirimler gelmiyor</dt>
+    <dd>Önce uygulamada Ayarlar → Bildirimler bölümünden hatırlatmaların
+    açık olduğunu doğrulayın. Ardından iPhone Ayarlar → Bildirimler →
+    Vaktinde altında iznin verildiğinden emin olun. Odaklanma (Focus) modu
+    açıksa bildirimleri sessize alıyor olabilir.</dd>
+
+    <dt>Bildirimlerde eski şehrim yazıyor</dt>
+    <dd>Şehir değiştirdiğinizde vakitler hemen güncellenir, yeni şehrin adı
+    ise adres çözümlemesi tamamlanınca yerine oturur. Uygulamayı bir kez
+    açmanız yeterlidir.</dd>
+
+    <dt>Kıble yönü sapıyor</dt>
+    <dd>Pusula manyetik alanlardan etkilenir. Telefonu havada sekiz çizerek
+    pusulayı kalibre edin, metal yüzeylerden ve manyetik telefon
+    tutucularından uzaklaşın.</dd>
+
+    <dt>Kur'an bölümü açılmıyor ya da ses gelmiyor</dt>
+    <dd>Sure metni ve tilavet internetten indirilir. İlk indirmeden sonra
+    metin cihazda saklanır ve çevrimdışı okunabilir; ses her seferinde
+    internet ister.</dd>
+
+    <dt>Widget güncellenmiyor</dt>
+    <dd>iOS, widget'ların ne sıklıkta yenileneceğine kendisi karar verir.
+    Uygulamayı bir kez açmak widget'ı da tazeler.</dd>
+  </dl>
+
+  <h2>Gizlilik</h2>
+  <p>Uygulama hiçbir kişisel veri toplamaz.
+  <a href="gizlilik.html">Gizlilik politikasını okuyun</a>.</p>
+
+  <footer>Vaktinde</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaktinde — Gizlilik Politikası</title>
+<style>
+  :root {
+    --ground: #F6F2EA;
+    --card: #FFFDF9;
+    --border: #E4DDD0;
+    --ink: #10242F;
+    --muted: #5B6870;
+    --accent: #0D5471;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #04202C; --card: #0B3040; --border: #17475B;
+      --ink: #F2ECE0; --muted: #93A6B0; --accent: #57ADD1;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 16px 96px;
+    background: var(--ground); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+  .updated { color: var(--muted); font-size: 15px; margin: 0 0 36px; }
+  h2 {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--accent); margin: 40px 0 10px;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.2em; }
+  li { margin-bottom: 8px; }
+  .lead {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 18px 20px; margin: 0 0 8px;
+  }
+  .lead p:last-child { margin-bottom: 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vaktinde — Gizlilik Politikası</h1>
+  <p class="updated">Son güncelleme: 30 Eylül 2026</p>
+
+  <div class="lead">
+    <p><strong>Vaktinde hiçbir kişisel veri toplamaz.</strong> Hesap açmanız
+    gerekmez, kaydolmanız istenmez. Uygulamada analiz aracı, reklam ağı ve
+    izleme yazılımı bulunmaz. Verdiğiniz hiçbir bilgi bize ulaşmaz; çünkü
+    bilgiyi toplayan bir sunucumuz yoktur.</p>
+  </div>
+
+  <h2>Konum bilginiz</h2>
+  <p>Namaz vakitleri ve kıble yönü bulunduğunuz yere göre değişir. Uygulama
+  bunun için konumunuzu ister. Konumunuz:</p>
+  <ul>
+    <li><strong>Cihazınızda kullanılır.</strong> Vakitler telefonunuzun
+    içinde hesaplanır; bir sunucuya gönderilip oradan alınmaz.</li>
+    <li><strong>Yalnızca cihazınızda saklanır.</strong> Son bilinen konumunuz,
+    uygulamayı her açtığınızda vakitleri yeniden hesaplayabilmek için
+    telefonunuzun kendi belleğinde tutulur.</li>
+    <li><strong>Bize gönderilmez.</strong> Konumunuzu alan, saklayan ya da
+    işleyen bir sunucumuz yok.</li>
+  </ul>
+  <p>Tek istisna, bulunduğunuz yerin adını ekranda gösterebilmektir: koordinat,
+  şehir ve ilçe adına çevrilmesi için Apple'ın konum çözümleme servisine
+  iletilir. Bu işlem Apple'ın gizlilik politikasına tabidir. Dilerseniz konum
+  iznini hiç vermeyip şehrinizi listeden elle seçebilirsiniz; bu durumda
+  konumunuz hiçbir yere gitmez.</p>
+  <p>Konum iznini istediğiniz zaman iPhone Ayarlar → Vaktinde üzerinden
+  kapatabilirsiniz.</p>
+
+  <h2>Bildirimler</h2>
+  <p>Vakit hatırlatmaları tamamen cihazınızda kurulur. Bildirimleri gönderen
+  bir sunucu yoktur; telefonunuz, hesapladığı vakitleri kendi saatine
+  kaydeder ve zamanı gelince gösterir. İnternet bağlantısı olmadan da
+  çalışır. Hangi vakitlerde hatırlatma istediğiniz bilgisi cihazınızda kalır.</p>
+
+  <h2>Dışarıya yapılan bağlantılar</h2>
+  <p>Uygulama yalnızca Kur'an bölümünü kullandığınızda internete çıkar:</p>
+  <ul>
+    <li><strong>alquran.cloud</strong> — Kur'an-ı Kerîm metni ve meali.
+    İndirilen sureler cihazınızda önbelleğe alınır, ikinci kez indirilmez.</li>
+    <li><strong>Islamic Network (cdn.islamic.network)</strong> — tilavet ses
+    dosyaları.</li>
+  </ul>
+  <p>Her internet bağlantısında olduğu gibi bu servisler, isteği yapan
+  cihazın IP adresini teknik olarak görür. Bu servislere adınız, konumunuz
+  ya da sizi tanımlayan başka bir bilgi gönderilmez.</p>
+
+  <h2>Cihazınızda saklananlar</h2>
+  <p>Aşağıdakiler telefonunuzdan çıkmaz; uygulamayı sildiğinizde birlikte
+  silinir:</p>
+  <ul>
+    <li>Seçtiğiniz ya da son bilinen konum</li>
+    <li>Bildirim tercihleriniz</li>
+    <li>Tema tercihiniz (açık / koyu)</li>
+    <li>Favori hadisleriniz</li>
+    <li>Kur'an'da kaldığınız yer ve indirilen sureler</li>
+    <li>Zikir sayaçlarınız</li>
+  </ul>
+
+  <h2>Çocuklar</h2>
+  <p>Uygulama her yaştan kullanıcıya uygundur ve kimseden yaş, isim ya da
+  başka bir kişisel bilgi istemez.</p>
+
+  <h2>Üçüncü taraf yazılımlar</h2>
+  <p>Uygulamada veri toplayan hiçbir üçüncü taraf yazılım kullanılmaz. Namaz
+  vakti hesabı için açık kaynaklı <a href="https://github.com/batoulapps/adhan-swift">Adhan</a>
+  kütüphanesi kullanılır; bu kütüphane cihazda çalışır ve internete çıkmaz.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika değişirse bu sayfa güncellenir ve yukarıdaki tarih yenilenir.</p>
+
+  <h2>İletişim</h2>
+  <p>Gizlilikle ilgili sorularınız için:
+  <a href="mailto:cnrmus@gmail.com">cnrmus@gmail.com</a></p>
+
+  <footer>Vaktinde · Namaz vakitleri, kıble, Kur'an, zikir ve hadis</footer>
+</main>
+</body>
+</html>
